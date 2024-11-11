@@ -16,7 +16,7 @@ The participants will validate the top 10 similar articles, either automatically
 
 ## Important dates
 
-- Sec/24-Jan/25: release of the test data
+- Dec/24-Jan/25: release of the test data
 
 ## Data and annotation tool
 
@@ -39,30 +39,30 @@ The selected reference articles should describe a proper animal experiment and c
 For instance, the article with [PMID 37775153](https://pubmed.ncbi.nlm.nih.gov/37775153/) belongs to the topic of “Musculoskeletal Diseases” and studies the effect of the L-arginine metabolism on arthritis and inflammation-mediated bone loss. 
 It proposes three methods, including transgenic mice (i.e., an animal experiment), but also in vitro methods.
 
-## Annotation task
+## Annotation tasks
 
-We will publicly release the list of reference articles. 
-The participants will be free to pick any of the reference articles from any of the topics 
-and perform annotation for the top 10 articles. 
-A valid submission to the shared task should consist of the annotation of all articles in the 
-top 10 of a particular reference article. 
-After the annotation, the participants should submit the session URL or the annotations to us, 
-either by e-mail of using a submission system (still to be decided).
-
-Each of the tasks below, i.e., manual or automatic validation, is divided into two sub-tasks: 
-(a) annotation of reference articles from a pre-selected list of five topics (diseases), in order 
-to allow better computing of an inter-annotation agreement; and 
-(b) annotation of reference articles from any of the topics.
+We will release the list of PMIDs, i.e., the reference articles. 
+The participants will be free to pick any of the reference articles from any of the topics and perform annotation for the top 10 articles. 
+A valid submission to the shared task should consist of the annotation of all articles in the top 10 for a particular reference article. 
+The participants can submit annotations for as many reference articles as they wish.
+The eannotation can be carried out manually or automatically.
+For each of them, we will consider two types of evaluation:
+(a) annotations of reference articles for a pre-selected list of five topics, in order to allow a better computation of an inter-annotation agreement; and 
+(b) annotation of reference articles for any of the topics.
 
 ### Manual annotation task
 
-The participant should enter the PMID into the SMAFIRA tool and validate the top 10 articles. 
-The annotation should be performed for each pair of articles, i.e., the reference article and one article from the top 10 list.
+The participant should enter the PMID into the SMAFIRA tool and validate the top 10 articles from the list (as ordered by the "SMAFIRA Rank", the default ranking) . 
+By clicking on one PMID of the list, the tool opens a comparison page between the reference article (on the left) and the clicked article (on the right).
+The participant should carefully read both abstract and assess the similarity of their research goal.
+The annotation consist of simply clicking on one of one of the option at the top of the page: green thumb up (similar), thumb up/down (uncertain), or thump down (not similar).
+It is possible to go back to the list of results at any time and navigate between the articles using the next/previous arrows, both found at the top of the page.
+The annotation can be exported using the "export feedback" button on the top right side of the page for the list of results.
+After the annotation, the participants should submit the session URL or the annotations to the organizers, either by e-mail of using a submission system (still to be decided).
 
 ### Automatic annotation task
 
-The participant should enter the PMID into the SMAFIRA tool, export the list of results, and automatically 
-annotate the top 10 articles, using whatever systems they developed for this aim.
+The participant should enter the PMID into the SMAFIRA tool, export the list of results, and automatically annotate the top 10 articles, using the system(s) they chose or developed for this aim.
 
 ## Annotation guidelines
 
