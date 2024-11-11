@@ -17,6 +17,13 @@ The participants will validate the top 10 similar articles, either automatically
 ## Important dates
 
 - Dec/24-Jan/25: release of the test data
+- Dealine for submissions of annotations 
+- Direct paper submission deadline: March 1, 2025 (To be confirmed)
+- Pre-reviewed ARR commitment deadline: March 25, 2025 (To be confirmed)
+- Notification of acceptance: April 3, 2025 (To be confirmed)
+- Camera-ready paper due: May 2, 2025 (To be confirmed)
+- Proceedings due (hard deadline): June 30, 2025
+- Workshop dates: July 31st - August 1st 2025
 
 ## Data and annotation tool
 
@@ -66,33 +73,23 @@ The participant should enter the PMID into the SMAFIRA tool, export the list of 
 
 ## Annotation guidelines
 
-Only the title and the abstract of a PubMed article is currently shown in SMAFIRA, and annotation 
-will be restricted to these. 
-The annotation consists of assessing the similarity between the research goals of the two articles, 
-i.e., the reference article and one of the articles from the top 10 list. 
-The similarity is defined by a tree-value scale, namely, similar, uncertain, or not similar, 
-as currently available in the SMAFIRA tool. 
+Only the title and the abstract of a PubMed article is currently shown in SMAFIRA, and annotation will be restricted to these. 
+The annotation consists of assessing the similarity between the research goals of the two articles, i.e., the reference article and one of the articles from the top 10 list. 
+The similarity is defined by a tree-value scale, namely, similar, uncertain, or not similar, as currently available in the SMAFIRA tool. 
 
-Inspired by the curated datasets for non-animal models in biomedical research [4], the assessment of 
-the research goal will be based on four criteria: disease, disease feature, biological points, 
-and field of application. However, there is no need to highlight these annotations. 
-The type of method proposed in the article, e.g.., in vitro or in vivo, is irrelevant and should 
-not be considered for the similarity.
+More details about the assessment of the similarity will be available shortly.
 
 ## Teams and participants
 
 We will allow the participation of single participants or teams. 
-All participants should provide an institutional e-mail, e.g., from the university, institute, 
-or company in which they work or study.
+All participants should provide an institutional e-mail, e.g., from the university, institute, or company in which they work or study.
 
 ## Evaluation
 
-We will compare the annotations from the participants using metrics for inter-annotator agreement (IAA), 
-e.g., the kappa coefficient. We will rank the participants (individuals and teams) in terms of 
-agreement to others and in terms of number of annotated reference articles. 
+We will compare the annotations from the participants using metrics for inter-annotator agreement (IAA), e.g., the kappa coefficient. 
+We will rank the participants (individuals and teams) in terms of agreement to others and in terms of the number of annotated reference articles. 
 The participants may submit a paper to the shared task track of the BioNLP workshop and attend the event. 
-Further, we plan to publish an overview paper of the shared task in a journal, and the participants 
-with valid submissions will be invited as co-authors.
+Further, we plan to publish an overview paper of the shared task in a journal, and the participants with valid submissions will be invited as co-authors.
   
 ## References
   
@@ -106,6 +103,5 @@ with valid submissions will be invited as co-authors.
     methods for three datasets”. In: The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks. 
     Toronto, Canada: Association for Computational Linguistics, July 2023, pp. 133–144.
 
-[4] European Commission et al. Advanced non-animal models in biomedical research: respiratory tract diseases. 
-    Publications Office of the European Union, 2020.
+
 
