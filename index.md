@@ -9,34 +9,35 @@ Recently, we released our [SMAFIRA Web tool](https://smafira.bf3r.de/) [1], whic
 The input to the tool is a PubMed identifier (PMID), hereafter called “reference article”, that represent the animal experiment for which they want to find an alternative method. 
 The tool retrieves up to 200 similar articles, as available in PubMed, and present these as list of results. 
 
-One of the processing tasks are currently being carried out for the articles in SMAFIRA is the re-ranking of the articles based on the similarity of the research goal, as compared to the reference article. 
+One of the processing tasks that is currently being carried out for the articles in SMAFIRA tool is the re-ranking of the articles based on the similarity of the research goal, as compared to the reference article. 
 We propose a shared task for collaborative annotation of training data in the scope of the [BioNLP workshop](https://aclweb.org/aclwiki/BioNLP_Workshop).
-We will release a list of various reference articles, grouped according to some pre-selected diseases. 
-The participants should validate the top 10 similar articles, either automatically or manually using the SMAFIRA tool.
+We will release a list of various reference articles, grouped according to some pre-selected diseases (MeSH terms). 
+The participants will validate the top 10 similar articles, either automatically, with any system of their choice, or manually using the SMAFIRA tool.
+
+## Important dates
+
+- Sec/24-Jan/25: release of the test data
 
 ## Data and annotation tool
 
 ### Available data
   
-We previously released four case studies [2], which can be used by the for any purpose, 
-including for few-shot approaches. For instance, we previously used this dataset for evaluation purposes [3].
+We previously released four case studies [2], which can be used by for any purpose, e.g., evaluation or few-shot approaches. We previously used this dataset for the evaluation of various similarity methods [3].
 
 ### Annotation tool
 
-The SMAFIRA tool is freely accessible and no login is necessary. 
-The annotators can bookmark the URL of their session for later annotation. 
-It is also possible to share the URL with other colleagues for a collaborative annotation.
+The [SMAFIRA Web tool](https://smafira.bf3r.de/) is freely accessible and no login is necessary. 
+Instead, the annotators can bookmark the URL of their session for later annotation or share the URL with other colleagues for a collaborative annotation.
 
 ### Test data
 
-We pre-selected a list of 21 diseases, e.g., “Neoplasms”, “Musculoskeletal Diseases” and 
-“Digestive System Diseases”, and their respective MeSH terms. 
+We pre-selected a list of 21 diseases, e.g., “Neoplasms” or “Musculoskeletal Diseases”, and their respective MeSH terms. 
 We performed searches in Pubmed based on each disease, e.g., (Musculoskeletal Diseases[MeSH Major Topic]) 
 AND (Models, Animal[MeSH Major Topic]), and manually selected five reference articles. 
-The selected reference articles should describe an animal experiment and cannot be a review. 
-For instance, the article with PMID 37775153 belongs to the topic of “Musculoskeletal Diseases” and 
-studies the effect of the L-arginine metabolism on arthritis and inflammation-mediated bone loss. 
-It proposes three methods, including transgenic mice, but also in vitro methods.
+The selected reference articles should describe a proper animal experiment and cannot be a review. 
+
+For instance, the article with [PMID 37775153](https://pubmed.ncbi.nlm.nih.gov/37775153/) belongs to the topic of “Musculoskeletal Diseases” and studies the effect of the L-arginine metabolism on arthritis and inflammation-mediated bone loss. 
+It proposes three methods, including transgenic mice (i.e., an animal experiment), but also in vitro methods.
 
 ## Annotation task
 
