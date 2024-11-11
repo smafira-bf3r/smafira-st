@@ -1,8 +1,8 @@
 # SMAFIRA Shared Task: <br> Assessing the similarity of the research goal
 
 Some countries have strict legislation regarding the authorization of animal testing. 
-For instance,   some require that researchers should comply with the so-called [3R principles](https://caat.jhsph.edu/the-principles-of-humane-experimental-technique/), i.e., strategies for   the replacement to non-animal approaches, reduction of the number of animals,   and refinement of the methods to reduce animal suffering. 
-Further, many countries require researchers   to carry out a through literature search to ensure that alternative approaches are currently not available.
+For instance,   some require that researchers should comply with the so-called [3R principles](https://caat.jhsph.edu/the-principles-of-humane-experimental-technique/), i.e., strategies for the replacement to non-animal approaches, reduction of the number of animals, and refinement of the methods to reduce animal suffering. 
+Further, many countries require researchers to carry out a through literature search to ensure that alternative approaches are currently not available.
 
 The [SMAFIRA project](https://www.bf3r.de/en/smafira___artificial_intelligence_for_finding_alternative_methods-297876.html) aims at supporting researchers to finding alternatives methods to animal experiments.
 Recently, we released our [SMAFIRA Web tool](https://smafira.bf3r.de/) [1], which allows researchers to performance such a search.
@@ -97,6 +97,15 @@ Further, we plan to publish an overview paper of the shared task in a journal, a
 
 We will compare the annotations from the participants using metrics for inter-annotator agreement (IAA), e.g., the kappa coefficient. 
 We will rank the participants (individuals and teams) in terms of agreement to others and in terms of the number of annotated reference articles. 
+
+## Contact
+
+- Mariana Neves (mariana.lara-neves@bfr.bund.de)
+
+## Organizers
+
+- Mariana Neves (German Federal Institute for Risk Assessment - BfR)
+- Daniel Butzke (German Federal Institute for Risk Assessment - BfR)
   
 ## References
   
@@ -106,6 +115,5 @@ We will rank the participants (individuals and teams) in terms of agreement to o
     
 [3] Mariana Neves et al. [Is the ranking of PubMed similar articles good enough? An evaluation of text similarity 
     methods for three datasets](https://aclanthology.org/2023.bionlp-1.11/). In: The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks. Toronto, Canada: Association for Computational Linguistics, July 2023, pp. 133–144.
-
 
 
