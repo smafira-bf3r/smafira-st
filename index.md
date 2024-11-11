@@ -16,8 +16,8 @@ The participants will validate the top 10 similar articles, either automatically
 
 ## Important dates
 
-- Dec/24-Jan/25: release of the test data
-- Dealine for submissions of annotations 
+- Release of the test data: Dec/2024-Jan/2025
+- Submissions of annotations: End of February, 2025
 - Direct paper submission deadline: March 1, 2025 (To be confirmed)
 - Pre-reviewed ARR commitment deadline: March 25, 2025 (To be confirmed)
 - Notification of acceptance: April 3, 2025 (To be confirmed)
