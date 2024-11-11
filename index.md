@@ -1,27 +1,18 @@
 # SMAFIRA Shared Task: <br> Assessing the similarity of the research goal
 
 Some countries have strict legislation regarding the authorization of animal testing. 
-  For instance,   some require that researchers should comply with the so-called 
-  [3R principles](https://caat.jhsph.edu/the-principles-of-humane-experimental-technique/), 
-  i.e., strategies for   the replacement to non-animal approaches, reduction of the number of animals, 
-  and refinement of the methods to reduce animal suffering. 
-  Further, many countries require researchers   to carry out a through literature search to ensure that 
-  alternative approaches are currently not available.
+For instance,   some require that researchers should comply with the so-called [3R principles](https://caat.jhsph.edu/the-principles-of-humane-experimental-technique/), i.e., strategies for   the replacement to non-animal approaches, reduction of the number of animals,   and refinement of the methods to reduce animal suffering. 
+Further, many countries require researchers   to carry out a through literature search to ensure that alternative approaches are currently not available.
 
-The [SMAFIRA project](https://www.bf3r.de/en/smafira___artificial_intelligence_for_finding_alternative_methods-297876.html)
-  aims at supporting researchers to finding alternatives methods to animal experiments.  
-  Recently, we released our [SMAFIRA Web tool](https://smafira.bf3r.de/) [1], which allows 
-  researchers to performance such a search.
-  The input to the tool is a PubMed identifier (PMID), hereafter called “reference article”, 
-  that represent the animal experiment for which they want to find an alternative method. 
-  The tool retrieves up to 200 similar articles, as available in PubMed, and present these as list of results. 
+The [SMAFIRA project](https://www.bf3r.de/en/smafira___artificial_intelligence_for_finding_alternative_methods-297876.html) aims at supporting researchers to finding alternatives methods to animal experiments.
+Recently, we released our [SMAFIRA Web tool](https://smafira.bf3r.de/) [1], which allows researchers to performance such a search.
+The input to the tool is a PubMed identifier (PMID), hereafter called “reference article”, that represent the animal experiment for which they want to find an alternative method. 
+The tool retrieves up to 200 similar articles, as available in PubMed, and present these as list of results. 
 
-One of the processing tasks are currently being carried out for the articles in SMAFIRA is the re-ranking 
-  of the articles based on the similarity of the research goal, as compared to the reference article. 
-  We propose a shared task for collaborative annotation of training data in the scope of the 
-  [BioNLP workshop](https://aclweb.org/aclwiki/BioNLP_Workshop).
-  We will release a list of various reference articles, grouped according to some pre-selected diseases. 
-  The participants should validate the top 10 similar articles, either automatically or manually using the SMAFIRA tool.
+One of the processing tasks are currently being carried out for the articles in SMAFIRA is the re-ranking of the articles based on the similarity of the research goal, as compared to the reference article. 
+We propose a shared task for collaborative annotation of training data in the scope of the [BioNLP workshop](https://aclweb.org/aclwiki/BioNLP_Workshop).
+We will release a list of various reference articles, grouped according to some pre-selected diseases. 
+The participants should validate the top 10 similar articles, either automatically or manually using the SMAFIRA tool.
 
 ## Data and annotation tool
 
