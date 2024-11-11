@@ -1,4 +1,4 @@
-# SMAFIRA Annotation Task: Assessing the similarity of the research goal
+# SMAFIRA Annotation Task: <br> Assessing the similarity of the research goal
 
 Some countries have strict legislation regarding the authorization of animal testing. 
   For instance,   some require that researchers should comply with the so-called 
