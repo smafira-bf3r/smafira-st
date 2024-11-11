@@ -72,7 +72,7 @@ The annotation should be performed for each pair of articles, i.e., the referenc
 The participant should enter the PMID into the SMAFIRA tool, export the list of results, and automatically 
 annotate the top 10 articles, using whatever systems they developed for this aim.
 
-### Annotation guidelines
+## Annotation guidelines
 
 Only the title and the abstract of a PubMed article is currently shown in SMAFIRA, and annotation 
 will be restricted to these. 
@@ -87,13 +87,13 @@ and field of application. However, there is no need to highlight these annotatio
 The type of method proposed in the article, e.g.., in vitro or in vivo, is irrelevant and should 
 not be considered for the similarity.
 
-### Teams and participants
+## Teams and participants
 
 We will allow the participation of single participants or teams. 
 All participants should provide an institutional e-mail, e.g., from the university, institute, 
 or company in which they work or study.
 
-### Evaluation
+## Evaluation
 
 We will compare the annotations from the participants using metrics for inter-annotator agreement (IAA), 
 e.g., the kappa coefficient. We will rank the participants (individuals and teams) in terms of 
