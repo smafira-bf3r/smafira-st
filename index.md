@@ -10,6 +10,8 @@ The input to the tool is a PubMed identifier (PMID), hereafter called “referen
 The tool retrieves up to 200 similar articles, as available in PubMed, and present these as list of results. 
 
 One of the processing tasks that is currently being carried out for the articles in SMAFIRA tool is the re-ranking of the articles based on the similarity of the research goal, as compared to the reference article. 
+There are three possible values for the similarity: similar, uncertain, or not similar.
+
 We propose a shared task for collaborative annotation of training data in the scope of the [BioNLP workshop](https://aclweb.org/aclwiki/BioNLP_Workshop).
 We will release a list of various reference articles, grouped according to some pre-selected diseases (MeSH terms). 
 The participants will validate the top 10 similar articles, either automatically, with any system of their choice, or manually using the SMAFIRA tool.
@@ -29,7 +31,12 @@ The participants will validate the top 10 similar articles, either automatically
 
 ### Available data
   
-We previously released four case studies [2], which can be used by for any purpose, e.g., evaluation or few-shot approaches. We previously used this dataset for the evaluation of various similarity methods [3].
+We previously released [four case studies](https://github.com/SMAFIRA/c_corpus) [2], which can be used by for any purpose, e.g., evaluation or few-shot approaches. 
+We previously used this dataset for the evaluation of various similarity methods [3].
+The mapping between the labels in the case studies and the similarity values is the following: 
+
+- similar: equivalent "++", partially equivalent “+(+)”, noteworthy “+”
+- not similar: limbo “L”, not equivalent “-”
 
 ### Annotation tool
 
@@ -83,25 +90,22 @@ More details about the assessment of the similarity will be available shortly.
 
 We will allow the participation of single participants or teams. 
 All participants should provide an institutional e-mail, e.g., from the university, institute, or company in which they work or study.
+The participants may submit a paper to the shared task track of the BioNLP workshop and attend the event. 
+Further, we plan to publish an overview paper of the shared task in a journal, and the participants with valid submissions will be invited as co-authors.
 
 ## Evaluation
 
 We will compare the annotations from the participants using metrics for inter-annotator agreement (IAA), e.g., the kappa coefficient. 
 We will rank the participants (individuals and teams) in terms of agreement to others and in terms of the number of annotated reference articles. 
-The participants may submit a paper to the shared task track of the BioNLP workshop and attend the event. 
-Further, we plan to publish an overview paper of the shared task in a journal, and the participants with valid submissions will be invited as co-authors.
   
 ## References
   
-[1] Daniel Butzke et al. “SMAFIRA: a literature-based web tool to assist researchers with retrieval of 3R-relevant information”. 
-  In: Laboratory Animals 0.0 (0). PMID: 38872231, p. 00236772241237608
+[1] Daniel Butzke et al. [SMAFIRA: a literature-based web tool to assist researchers with retrieval of 3R-relevant information](https://journals.sagepub.com/doi/full/10.1177/00236772241237608). Laboratory Animals, 2024, Aug;58(4):369-373. 
 
-[2] Daniel Butzke et al. SMAFIRA-c: A benchmark text corpus for evaluation of approaches to relevance ranking 
-    and knowledge discovery in the biomedical domain. 2020.</p>
+[2] Daniel Butzke et al. [SMAFIRA-c: A benchmark text corpus for evaluation of approaches to relevance ranking and knowledge discovery in the biomedical domain](https://europepmc.org/article/ppr/ppr121819). Pre-print 2020.
     
-[3] Mariana Neves et al. “Is the ranking of PubMed similar articles good enough? An evaluation of text similarity 
-    methods for three datasets”. In: The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks. 
-    Toronto, Canada: Association for Computational Linguistics, July 2023, pp. 133–144.
+[3] Mariana Neves et al. [Is the ranking of PubMed similar articles good enough? An evaluation of text similarity 
+    methods for three datasets](https://aclanthology.org/2023.bionlp-1.11/). In: The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks. Toronto, Canada: Association for Computational Linguistics, July 2023, pp. 133–144.
 
 
 
