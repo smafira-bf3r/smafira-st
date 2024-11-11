@@ -1,42 +1,42 @@
-<h1>SMAFIRA Annotation Task: Assessing the similarity of the research goal</h1>
+# SMAFIRA Annotation Task: Assessing the similarity of the research goal
 
-<p>Some countries have strict legislation regarding the authorization of animal testing. 
+Some countries have strict legislation regarding the authorization of animal testing. 
   For instance,   some require that researchers should comply with the so-called 
-  <a href="https://caat.jhsph.edu/the-principles-of-humane-experimental-technique/">3R principles</a>a>, 
+  [3R principles](https://caat.jhsph.edu/the-principles-of-humane-experimental-technique/), 
   i.e., strategies for   the replacement to non-animal approaches, reduction of the number of animals, 
   and refinement of the methods to reduce animal suffering. 
   Further, many countries require researchers   to carry out a through literature search to ensure that 
-  alternative approaches are currently not available.</p>
+  alternative approaches are currently not available.
 
-<p>The <a href="https://www.bf3r.de/en/smafira___artificial_intelligence_for_finding_alternative_methods-297876.html">SMAFIRA project</a>
+The [SMAFIRA project](https://www.bf3r.de/en/smafira___artificial_intelligence_for_finding_alternative_methods-297876.html)
   aims at supporting researchers to finding alternatives methods to animal experiments.  
-  Recently, we released our <a href="https://smafira.bf3r.de/">SMAFIRA Web tool</a> [1], which allows 
+  Recently, we released our [SMAFIRA Web tool](https://smafira.bf3r.de/) [1], which allows 
   researchers to performance such a search.
   The input to the tool is a PubMed identifier (PMID), hereafter called “reference article”, 
   that represent the animal experiment for which they want to find an alternative method. 
-  The tool retrieves up to 200 similar articles, as available in PubMed, and present these as list of results. </p>
+  The tool retrieves up to 200 similar articles, as available in PubMed, and present these as list of results. 
 
-<p>One of the processing tasks are currently being carried out for the articles in SMAFIRA is the re-ranking 
+One of the processing tasks are currently being carried out for the articles in SMAFIRA is the re-ranking 
   of the articles based on the similarity of the research goal, as compared to the reference article. 
   We propose a shared task for collaborative annotation of training data in the scope of the 
-  <a href="https://aclweb.org/aclwiki/BioNLP_Workshop">BioNLP workshop</a>.
+  [BioNLP workshop](https://aclweb.org/aclwiki/BioNLP_Workshop).
   We will release a list of various reference articles, grouped according to some pre-selected diseases. 
-  The participants should validate the top 10 similar articles, either automatically or manually using the SMAFIRA tool.</p>
+  The participants should validate the top 10 similar articles, either automatically or manually using the SMAFIRA tool.
 
-<h2>Data and annotation tool</h2>
+## Data and annotation tool
 
-<h3>Available data</h3>
+### Available data
   
 We previously released four case studies [2], which can be used by the for any purpose, 
-including for few-shot approaches. For instance, we previously used this dataset for evaluation purposes [3].</p>
+including for few-shot approaches. For instance, we previously used this dataset for evaluation purposes [3].
 
-<h3>Annotation tool</h3>
+### Annotation tool
 
 The SMAFIRA tool is freely accessible and no login is necessary. 
 The annotators can bookmark the URL of their session for later annotation. 
 It is also possible to share the URL with other colleagues for a collaborative annotation.
 
-<h3>Test data</h3>
+### Test data
 
 We pre-selected a list of 21 diseases, e.g., “Neoplasms”, “Musculoskeletal Diseases” and 
 “Digestive System Diseases”, and their respective MeSH terms. 
@@ -47,7 +47,7 @@ For instance, the article with PMID 37775153 belongs to the topic of “Musculos
 studies the effect of the L-arginine metabolism on arthritis and inflammation-mediated bone loss. 
 It proposes three methods, including transgenic mice, but also in vitro methods.
 
-<h2>Annotation task</h2>
+## Annotation task
 
 We will publicly release the list of reference articles. 
 The participants will be free to pick any of the reference articles from any of the topics 
@@ -62,17 +62,17 @@ Each of the tasks below, i.e., manual or automatic validation, is divided into t
 to allow better computing of an inter-annotation agreement; and 
 (b) annotation of reference articles from any of the topics.
 
-<h3>Manual annotation task</h3>
+### Manual annotation task
 
 The participant should enter the PMID into the SMAFIRA tool and validate the top 10 articles. 
 The annotation should be performed for each pair of articles, i.e., the reference article and one article from the top 10 list.
 
-<h3>Automatic annotation task</h3>
+### Automatic annotation task
 
 The participant should enter the PMID into the SMAFIRA tool, export the list of results, and automatically 
 annotate the top 10 articles, using whatever systems they developed for this aim.
 
-<h3>Annotation guidelines</h3>
+### Annotation guidelines
 
 Only the title and the abstract of a PubMed article is currently shown in SMAFIRA, and annotation 
 will be restricted to these. 
@@ -87,13 +87,13 @@ and field of application. However, there is no need to highlight these annotatio
 The type of method proposed in the article, e.g.., in vitro or in vivo, is irrelevant and should 
 not be considered for the similarity.
 
-<h3>Teams and participants</h3>
+### Teams and participants
 
 We will allow the participation of single participants or teams. 
 All participants should provide an institutional e-mail, e.g., from the university, institute, 
 or company in which they work or study.
 
-<h3>Evaluation</h3>
+### Evaluation
 
 We will compare the annotations from the participants using metrics for inter-annotator agreement (IAA), 
 e.g., the kappa coefficient. We will rank the participants (individuals and teams) in terms of 
@@ -102,18 +102,18 @@ The participants may submit a paper to the shared task track of the BioNLP works
 Further, we plan to publish an overview paper of the shared task in a journal, and the participants 
 with valid submissions will be invited as co-authors.
   
-<h2>References</h2>
+## References
   
-  <p>[1] Daniel Butzke et al. “SMAFIRA: a literature-based web tool to assist researchers with retrieval of 3R-relevant information”. 
-  In: Laboratory Animals 0.0 (0). PMID: 38872231, p. 00236772241237608</p>
+[1] Daniel Butzke et al. “SMAFIRA: a literature-based web tool to assist researchers with retrieval of 3R-relevant information”. 
+  In: Laboratory Animals 0.0 (0). PMID: 38872231, p. 00236772241237608
 
-  <p>[2] Daniel Butzke et al. SMAFIRA-c: A benchmark text corpus for evaluation of approaches to relevance ranking 
+[2] Daniel Butzke et al. SMAFIRA-c: A benchmark text corpus for evaluation of approaches to relevance ranking 
     and knowledge discovery in the biomedical domain. 2020.</p>
     
-  <p>[3] Mariana Neves et al. “Is the ranking of PubMed similar articles good enough? An evaluation of text similarity 
+[3] Mariana Neves et al. “Is the ranking of PubMed similar articles good enough? An evaluation of text similarity 
     methods for three datasets”. In: The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks. 
-    Toronto, Canada: Association for Computational Linguistics, July 2023, pp. 133–144.</p>
+    Toronto, Canada: Association for Computational Linguistics, July 2023, pp. 133–144.
 
-  <p>[4] European Commission et al. Advanced non-animal models in biomedical research: respiratory tract diseases. 
-    Publications Office of the European Union, 2020.</p>
+[4] European Commission et al. Advanced non-animal models in biomedical research: respiratory tract diseases. 
+    Publications Office of the European Union, 2020.
 
