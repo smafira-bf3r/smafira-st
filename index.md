@@ -1,4 +1,4 @@
-# SMAFIRA Shared Task: <br> Assessing the similarity of the research goal
+
 
 Some countries have strict legislation regarding the authorization of animal testing. 
 For instance,   some require that researchers should comply with the so-called [3R principles](https://caat.jhsph.edu/the-principles-of-humane-experimental-technique/), i.e., strategies for the replacement to non-animal approaches, reduction of the number of animals, and refinement of the methods to reduce animal suffering. 
