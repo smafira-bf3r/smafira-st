@@ -78,14 +78,6 @@ After the annotation, the participants should submit the session URL or the anno
 
 The participant should enter the PMID into the SMAFIRA tool, export the list of results, and automatically annotate the top 10 articles, using the system(s) they chose or developed for this aim.
 
-## Annotation guidelines
-
-Only the title and the abstract of a PubMed article is currently shown in SMAFIRA, and annotation will be restricted to these. 
-The annotation consists of assessing the similarity between the research goals of the two articles, i.e., the reference article and one of the articles from the top 10 list. 
-The similarity is defined by a tree-value scale, namely, similar, uncertain, or not similar, as currently available in the SMAFIRA tool. 
-
-More details about the assessment of the similarity will be available shortly. [a relative link](guidelines.md)
-
 ## Teams and participants
 
 We will allow the participation of single participants or teams. 
@@ -97,6 +89,14 @@ Further, we plan to publish an overview paper of the shared task in a journal, a
 
 We will compare the annotations from the participants using metrics for inter-annotator agreement (IAA), e.g., the kappa coefficient. 
 We will rank the participants (individuals and teams) in terms of agreement to others and in terms of the number of annotated reference articles. 
+
+## Annotation guidelines
+
+Only the title and the abstract of a PubMed article is currently shown in SMAFIRA, and annotation will be restricted to these. 
+The annotation consists of assessing the similarity between the research goals of the two articles, i.e., the reference article and one of the articles from the top 10 list. 
+The similarity is defined by a tree-value scale, namely, similar, uncertain, or not similar, as currently available in the SMAFIRA tool. 
+
+More details about the assessment of the similarity will be available shortly.
 
 ## Contact
 
