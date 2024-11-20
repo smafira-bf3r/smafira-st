@@ -4,13 +4,13 @@ Some countries have strict legislation regarding the authorization of animal tes
 For instance,   some require that researchers should comply with the so-called [3R principles](https://caat.jhsph.edu/the-principles-of-humane-experimental-technique/), i.e., strategies for the replacement with non-animal approaches, reduction of the number of animals in individual experiments, and refinement of the experimental procedures to reduce animal suffering. 
 Further, many countries require researchers to carry out a thorough literature search to ensure that alternative approaches are currently not available.
 
-The [SMAFIRA project](https://www.bf3r.de/en/smafira___artificial_intelligence_for_finding_alternative_methods-297876.html) aims at supporting researchers with finding alternative methods to animal experiments.
+The [SMAFIRA project](https://www.bf3r.de/en/smafira___artificial_intelligence_for_finding_alternative_methods-297876.html) aims at supporting researchers for finding alternative methods to animal experiments.
 Recently, we released our [SMAFIRA Web tool](https://smafira.bf3r.de/) [1], which allows researchers to perform such a search.
 The input to the tool is a PubMed identifier (PMID) of a publication, hereafter called “reference article”, that represents the animal experiment for which one wants to find an alternative method. 
 The tool retrieves up to 200 similar articles available in PubMed, and presents these as a list of results. 
 
 One of the processing tasks that is currently carried out for the retrieved articles in SMAFIRA is the re-ranking of the articles based on the similarity of the research goal, as compared to the reference article. 
-There are three possible values for the similarity: similar, uncertain, or not similar.
+There are three possible values for the similarity: **similar**, **uncertain**, or **not similar**.
 
 We propose a shared task for collaborative annotation of training data in the scope of the [BioNLP workshop](https://aclweb.org/aclwiki/BioNLP_Workshop).
 We will release a list of various reference articles, grouped according to some pre-selected diseases (MeSH terms). 
@@ -35,9 +35,9 @@ We previously released [four case studies](https://github.com/SMAFIRA/c_corpus) 
 We previously used this dataset for the evaluation of various similarity methods [3].
 The mapping between the labels in the case studies and the similarity values is the following: 
 
-- similar: equivalent "++", partially equivalent “+(+)”, noteworthy “+”
-- uncertain: limbo “L”
-- not similar: not equivalent “-”
+- **similar**: equivalent "++", partially equivalent “+(+)”, noteworthy “+”
+- **uncertain**: limbo “L”
+- **not similar**: not equivalent “-”
 
 ### Annotation tool
 
@@ -52,7 +52,7 @@ AND (Models, Animal[MeSH Major Topic]), and manually selected five reference art
 The selected reference articles should describe a proper animal experiment and cannot be a review. 
 
 For instance, the article with [PMID 37775153](https://pubmed.ncbi.nlm.nih.gov/37775153/) belongs to the topic of “Musculoskeletal Diseases” and studies the effect of the L-arginine metabolism on arthritis and inflammation-mediated bone loss. 
-It proposes three methods, including transgenic mice (i.e., an animal experiment), but also in vitro methods.
+It proposes three methods, including transgenic mice (i.e., an animal experiment), but also *in vitro* methods.
 
 ## Annotation tasks
 
@@ -62,8 +62,10 @@ A valid submission to the shared task should consist of the annotation of all ar
 The participants can submit annotations for as many reference articles as they wish.
 The eannotation can be carried out manually or automatically.
 For each of them, we will consider two types of evaluation:
-(a) annotations of reference articles for a pre-selected list of five topics, in order to allow a better computation of an inter-annotation agreement; and 
-(b) annotation of reference articles for any of the topics.
+
+- annotations of reference articles for a pre-selected list of five topics, in order to allow a better computation of an inter-annotation agreement; and 
+- annotation of reference articles for any of the topics.
+  
 After the annotation, the participants should submit the session URL or the annotations to the organizers, either by e-mail or using a submission system (still to be decided).
 
 ### Manual annotation task
@@ -97,7 +99,7 @@ Only the title and the abstract of a PubMed article is currently shown in SMAFIR
 The annotation consists of assessing the similarity between the research goals of the two articles, i.e., the reference article and one of the articles from the top 10 list. 
 The similarity is defined by a tree-value scale, namely, similar, uncertain, or not similar, as currently available in the SMAFIRA tool. 
 
-More details about the assessment of the similarity will be available shortly.
+More details about the assessment of the similarity is described in [2], but some examples will be available shortly.
 
 ## Contact
 
