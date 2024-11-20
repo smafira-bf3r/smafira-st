@@ -100,7 +100,16 @@ Only the title and the abstract of a PubMed article is currently shown in SMAFIR
 The annotation consists of assessing the similarity between the research goals of the two articles, i.e., the reference article and one of the articles from the top 10 list. 
 The similarity is defined by a tree-value scale, namely, similar, uncertain, or not similar, as currently available in the SMAFIRA tool. 
 
-More details about the assessment of the similarity is described in [2], but some examples will be available shortly.
+More details about the assessment of the similarity is described in [2] and one example is shown below:
+
+Our case study [16850029](https://pubmed.ncbi.nlm.nih.gov/16850029/) (cf. [2]) studies how the matrix metalloproteinases (MMPs) disrupt the blood-brain barrier (BBB) because of the degradation of tight junction proteins (TJPs) during reperfusion for focal ischemia in rats. 
+The aim is to better understand the disease mechanism.
+We show some examples from our case tudy for the three similarity values above.
+
+|   PMID   | Similarity | Explanation |
+| --- | --- | --- |
+| [21717368](https://pubmed.ncbi.nlm.nih.gov/21717368/) | similar | BBB disruption by MMPs because of the endothelial tight junctions for cerebral ischemia |
+| [19712057](https://pubmed.ncbi.nlm.nih.gov/19712057/)  | similar  | Role of MMPs in the immature brain and the long term effects of early MMPs inhibition after hypoxic-ischemic (HI) injury, including study of BBB integrity and TJP level (among others). |
 
 ## Contact
 
