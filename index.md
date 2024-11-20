@@ -1,15 +1,15 @@
 
 
 Some countries have strict legislation regarding the authorization of animal testing. 
-For instance,   some require that researchers should comply with the so-called [3R principles](https://caat.jhsph.edu/the-principles-of-humane-experimental-technique/), i.e., strategies for the replacement to non-animal approaches, reduction of the number of animals, and refinement of the methods to reduce animal suffering. 
-Further, many countries require researchers to carry out a through literature search to ensure that alternative approaches are currently not available.
+For instance,   some require that researchers should comply with the so-called [3R principles](https://caat.jhsph.edu/the-principles-of-humane-experimental-technique/), i.e., strategies for the replacement with non-animal approaches, reduction of the number of animals in individual experiments, and refinement of the experimental procedures to reduce animal suffering. 
+Further, many countries require researchers to carry out a thorough literature search to ensure that alternative approaches are currently not available.
 
-The [SMAFIRA project](https://www.bf3r.de/en/smafira___artificial_intelligence_for_finding_alternative_methods-297876.html) aims at supporting researchers to finding alternatives methods to animal experiments.
-Recently, we released our [SMAFIRA Web tool](https://smafira.bf3r.de/) [1], which allows researchers to performance such a search.
-The input to the tool is a PubMed identifier (PMID), hereafter called “reference article”, that represent the animal experiment for which they want to find an alternative method. 
-The tool retrieves up to 200 similar articles, as available in PubMed, and present these as list of results. 
+The [SMAFIRA project](https://www.bf3r.de/en/smafira___artificial_intelligence_for_finding_alternative_methods-297876.html) aims at supporting researchers with finding alternative methods to animal experiments.
+Recently, we released our [SMAFIRA Web tool](https://smafira.bf3r.de/) [1], which allows researchers to perform such a search.
+The input to the tool is a PubMed identifier (PMID) of a publication, hereafter called “reference article”, that represents the animal experiment for which one wants to find an alternative method. 
+The tool retrieves up to 200 similar articles available in PubMed, and presents these as a list of results. 
 
-One of the processing tasks that is currently being carried out for the articles in SMAFIRA tool is the re-ranking of the articles based on the similarity of the research goal, as compared to the reference article. 
+One of the processing tasks that is currently carried out for the retrieved articles in SMAFIRA is the re-ranking of the articles based on the similarity of the research goal, as compared to the reference article. 
 There are three possible values for the similarity: similar, uncertain, or not similar.
 
 We propose a shared task for collaborative annotation of training data in the scope of the [BioNLP workshop](https://aclweb.org/aclwiki/BioNLP_Workshop).
@@ -36,7 +36,8 @@ We previously used this dataset for the evaluation of various similarity methods
 The mapping between the labels in the case studies and the similarity values is the following: 
 
 - similar: equivalent "++", partially equivalent “+(+)”, noteworthy “+”
-- not similar: limbo “L”, not equivalent “-”
+- uncertain: limbo “L”
+- not similar: not equivalent “-”
 
 ### Annotation tool
 
@@ -63,6 +64,7 @@ The eannotation can be carried out manually or automatically.
 For each of them, we will consider two types of evaluation:
 (a) annotations of reference articles for a pre-selected list of five topics, in order to allow a better computation of an inter-annotation agreement; and 
 (b) annotation of reference articles for any of the topics.
+After the annotation, the participants should submit the session URL or the annotations to the organizers, either by e-mail or using a submission system (still to be decided).
 
 ### Manual annotation task
 
@@ -72,7 +74,6 @@ The participant should carefully read both abstract and assess the similarity of
 The annotation consist of simply clicking on one of one of the option at the top of the page: green thumb up (similar), thumb up/down (uncertain), or thump down (not similar).
 It is possible to go back to the list of results at any time and navigate between the articles using the next/previous arrows, both found at the top of the page.
 The annotation can be exported using the "export feedback" button on the top right side of the page for the list of results.
-After the annotation, the participants should submit the session URL or the annotations to the organizers, either by e-mail of using a submission system (still to be decided).
 
 ### Automatic annotation task
 
