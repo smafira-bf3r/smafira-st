@@ -35,7 +35,7 @@ We previously released [four case studies](https://github.com/SMAFIRA/c_corpus) 
 We previously used this dataset for the evaluation of various similarity methods [3].
 The mapping between the labels in the case studies and the similarity values is the following: 
 
-- **similar**: equivalent "++", partially equivalent “+(+)”, noteworthy “+”
+- **similar**: equivalent "++", partially equivalent “+(+)” or “+”, noteworthy “n”
 - **uncertain**: limbo “L”
 - **not similar**: not equivalent “-”
 
@@ -70,7 +70,7 @@ After the annotation, the participants should submit the session URL or the anno
 
 ### Manual annotation task
 
-The participant should enter the PMID into the SMAFIRA tool and validate the top 10 articles from the list (as ordered by the "SMAFIRA Rank", the default ranking) . 
+The participant should enter the PMID into the SMAFIRA tool and validate the top 10 articles from the list (as ordered by the "SMAFIRA Rank", the default ranking). 
 By clicking on one PMID of the list, the tool opens a comparison page between the reference article (on the left) and the clicked article (on the right).
 The participant should carefully read both abstract and assess the similarity of their research goal.
 The annotation consist of simply clicking on one of one of the option at the top of the page: green thumb up (similar), thumb up/down (uncertain), or thump down (not similar).
@@ -79,7 +79,8 @@ The annotation can be exported using the "export feedback" button on the top rig
 
 ### Automatic annotation task
 
-The participant should enter the PMID into the SMAFIRA tool, export the list of results, and automatically annotate the top 10 articles, using the system(s) they chose or developed for this aim.
+The participant should enter the PMID into the SMAFIRA tool and validate the top 10 articles from the list (as ordered by the "SMAFIRA Rank", the default ranking). 
+Subsequently, they can automatically annotate the articles using the system(s) they choose or developed for this aim.
 
 ## Teams and participants
 
