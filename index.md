@@ -102,14 +102,16 @@ The similarity is defined by a tree-value scale, namely, similar, uncertain, or 
 
 More details about the assessment of the similarity is described in [2] and one example is shown below:
 
-Our case study [16850029](https://pubmed.ncbi.nlm.nih.gov/16850029/) (cf. [2]) studies how the matrix metalloproteinases (MMPs) disrupt the blood-brain barrier (BBB) because of the degradation of tight junction proteins (TJPs) during reperfusion for focal ischemia in rats. 
-The aim is to better understand the disease mechanism.
-We show some examples from our case tudy for the three similarity values above.
+Our case study [19735549](https://pubmed.ncbi.nlm.nih.gov/19735549/) (cf. [2]) studies the natural progression of human ductal carcinoma in situ (DCIS).
+It aims at better understanding the disease mechanism by mimicking the diversity of human noninvasive breast cancers in vivo.
+It mimics the cellular mechanisms of breast cancer progression and shows that various subtypes of human DCIS appeared to contain distinct subpopulations of tumor-initiating cells. 
+We show some examples from our case study for the three similarity values.
 
 |   PMID   | Similarity | Explanation |
 | --- | --- | --- |
-| [21717368](https://pubmed.ncbi.nlm.nih.gov/21717368/) | similar | BBB disruption by MMPs because of the endothelial tight junctions for cerebral ischemia |
-| [19712057](https://pubmed.ncbi.nlm.nih.gov/19712057/)  | similar  | Role of MMPs in the immature brain and the long term effects of early MMPs inhibition after hypoxic-ischemic (HI) injury, including study of BBB integrity and TJP level (among others). |
+| [28707729](https://pubmed.ncbi.nlm.nih.gov/28707729/) | similar | It studies the expression of SOX11 for the promotion of invasive growth and DCIS progression. 
+It shows that SOX11 contributes to the progression of DCIS to invasive breast cancer and identifies potential downstream effectors during both microinvasive and invasive tumour growth stages. |
+| [?](https://pubmed.ncbi.nlm.nih.gov/?/)  | similar  | ? |
 
 ## Contact
 
