@@ -105,6 +105,7 @@ More details about the assessment of the similarity is described in [2] and we s
 | PMID | Reference | Application | Disease | Disease feature | Endpoints |
 | --- | --- | --- |
 | [19735549](https://pubmed.ncbi.nlm.nih.gov/19735549/) | - | Model development, Disease mechanism | breast cancer, human ductal carcinoma in situ (DCIS)	|	tumor initiation, growth, progress| HER-2 |
+
 | PMID | Similarity | Application | Disease | Disease feature | Endpoints |
 | --- | --- | --- |
 | [28707729](https://pubmed.ncbi.nlm.nih.gov/28707729/) | similar | Disease mechanism | breast cancer, DCIS | promote invasive growth	| SOX11 |
