@@ -109,8 +109,7 @@ We show some examples from our case study for the three similarity values.
 
 |   PMID   | Similarity | Explanation |
 | --- | --- | --- |
-| [28707729](https://pubmed.ncbi.nlm.nih.gov/28707729/) | similar | It studies the expression of SOX11 for the promotion of invasive growth and DCIS progression. 
-It shows that SOX11 contributes to the progression of DCIS to invasive breast cancer and identifies potential downstream effectors during both microinvasive and invasive tumour growth stages. |
+| [28707729](https://pubmed.ncbi.nlm.nih.gov/28707729/) | similar | It studies the expression of SOX11 for the promotion of invasive growth and DCIS progression. It shows that SOX11 contributes to the progression of DCIS to invasive breast cancer and identifies potential downstream effectors during both microinvasive and invasive tumour growth stages. |
 | [?](https://pubmed.ncbi.nlm.nih.gov/?/)  | similar  | ? |
 
 ## Contact
