@@ -100,17 +100,18 @@ Only the title and the abstract of a PubMed article is currently shown in SMAFIR
 The annotation consists of assessing the similarity between the research goals of the two articles, i.e., the reference article and one of the articles from the top 10 list. 
 The similarity is defined by a tree-value scale, namely, similar, uncertain, or not similar, as currently available in the SMAFIRA tool. 
 
-More details about the assessment of the similarity is described in [2] and one example is shown below:
+More details about the assessment of the similarity is described in [2] and we show some examples below:
 
-Our case study [19735549](https://pubmed.ncbi.nlm.nih.gov/19735549/) (cf. [2]) studies the natural progression of human ductal carcinoma in situ (DCIS).
-It aims at better understanding the disease mechanism by mimicking the diversity of human noninvasive breast cancers in vivo.
-It mimics the cellular mechanisms of breast cancer progression and shows that various subtypes of human DCIS appeared to contain distinct subpopulations of tumor-initiating cells. 
-We show some examples from our case study for the three similarity values.
-
-|   PMID   | Similarity | Explanation |
+|   PMID   | Similarity | Application | Disease | Disease feature | Endpoints |
 | --- | --- | --- |
-| [28707729](https://pubmed.ncbi.nlm.nih.gov/28707729/) | similar | It studies the expression of SOX11 for the promotion of invasive growth and DCIS progression. It shows that SOX11 contributes to the progression of DCIS to invasive breast cancer and identifies potential downstream effectors during both microinvasive and invasive tumour growth stages. |
-| [20421921](https://pubmed.ncbi.nlm.nih.gov/20421921/)  | similar  |  It studies the factors that promote survival of DCIS neoplastic cells within the hypoxic, nutrient deprived intraductal microenvironment. It shows that cytogenetically abnormal spheroid forming, tumorigenic, and invasive neoplastic epithelial cells pre-exist in human DCIS and require cellular autophagy for survival. |
+| [19735549](https://pubmed.ncbi.nlm.nih.gov/19735549/) | reference | Model development, Disease mechanism | breast cancer, human ductal carcinoma in situ (DCIS)	|	tumor initiation, growth, progress| HER-2 |
+| [28707729](https://pubmed.ncbi.nlm.nih.gov/28707729/) | similar | Disease mechanism | breast cancer, DCIS | promote invasive growth	| SOX11 |
+| [20421921](https://pubmed.ncbi.nlm.nih.gov/20421921/)  | similar  | Disease mechanism | breast cancer, DCIS | progression into invasive	| Atg5, AKT/PI3 Kinase and mTOR |
+| [19920187](https://pubmed.ncbi.nlm.nih.gov/19920187/) | uncertain | Disease mechanism; Model development | breast cancer, DCIS | progression into invasive | HGF-secreting mammary fibroblasts |
+| [27374087](https://pubmed.ncbi.nlm.nih.gov/27374087/) | uncertain | Disease mechanism | breast cancer, DCIS	| progression into invasive | distinction of aggressive clones |
+| [22777354](https://pubmed.ncbi.nlm.nih.gov/22777354/) | not similar | Disease mechanism | breast cancer, DCIS | regulation of tumor cell differentiation | SIM2s |
+| [24691501](https://pubmed.ncbi.nlm.nih.gov/24691501/) | not similar | Disease mechanism | breast cancer, DCIS |	myoepithelial cell layer | BXL0124 |
+
 
 ## Contact
 
