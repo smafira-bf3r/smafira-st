@@ -16,17 +16,16 @@ We propose a shared task for collaborative annotation of training data in the sc
 We will release a list of various reference articles, grouped according to some pre-selected diseases (MeSH terms). 
 The participants will validate the top 10 similar articles, either automatically, with any system of their choice, or manually using the SMAFIRA tool.
 
-## Important dates
+## Important dates (shared task)
 
 - Release of the test data: Jan/2025
 - Submissions of annotations (batch1): March 20th, 2025
+- Release of the test data (batch2): Mar/2025
 - Submissions of annotations (batch2): May 2nd, 2025
-  
-- Direct paper submission deadline: March 20th, 2025
-- Notification of acceptance: April 20th, 2025
-- Camera-ready paper due: May 2nd, 2025
-- Proceedings due (hard deadline): June 30th, 2025
-- Workshop dates: July 31st OR August 1st 2025
+
+## Important dates (BioNLP workshop)
+
+Please check the [BioNLP workshop](https://aclweb.org/aclwiki/BioNLP_Workshop) web site.
 
 ## Data and annotation tool
 
