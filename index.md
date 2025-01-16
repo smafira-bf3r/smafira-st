@@ -102,7 +102,7 @@ Further, we plan to publish an overview paper of the shared task in a journal, a
 
 ## Release of the annotations
 
-All annotations will be made available for the public under an appropriate licence for open data purposes.
+All annotations will be made available for the public under an appropriate licence for open data purposes, e.g., [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode).
 The annotation will be identified according to their respective team.
 
 ## Evaluation
