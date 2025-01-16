@@ -87,7 +87,11 @@ Please follow the procedure below:
 
 Please follow the steps 1.3 above and then step 8 for exporting the list of PMIDs.
 Subsequently, automatically annotate the top 20 articles using the system(s) they choose or developed for this aim.
-Please note that the text of the abstarcts are not included in the exported file and should be downloaded from Pubmed using the [API](https://pmc.ncbi.nlm.nih.gov/tools/developers/).
+Please note that the text of the articles are not included in the exported file and should be downloaded from Pubmed using the [API](https://pmc.ncbi.nlm.nih.gov/tools/developers/).
+
+The exported file has the following format: 
+- first line: input PMID (i.e., the reference article);
+- following lines: similar articles according to the ranking method, for which the top 20 should be validated.
 
 ## Teams and participants
 
