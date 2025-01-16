@@ -18,14 +18,15 @@ The participants will validate the top 10 similar articles, either automatically
 
 ## Important dates
 
-- Release of the test data: Dec/2024-Jan/2025
-- Submissions of annotations: End of February, 2025
-- Direct paper submission deadline: March 1, 2025 (To be confirmed)
-- Pre-reviewed ARR commitment deadline: March 25, 2025 (To be confirmed)
-- Notification of acceptance: April 3, 2025 (To be confirmed)
-- Camera-ready paper due: May 2, 2025 (To be confirmed)
-- Proceedings due (hard deadline): June 30, 2025
-- Workshop dates: July 31st - August 1st 2025
+- Release of the test data: Jan/2025
+- Submissions of annotations (batch1): March 20th, 2025
+- Submissions of annotations (batch2): May 2nd, 2025
+  
+- Direct paper submission deadline: March 20th, 2025
+- Notification of acceptance: April 20th, 2025
+- Camera-ready paper due: May 2nd, 2025
+- Proceedings due (hard deadline): June 30th, 2025
+- Workshop dates: July 31st OR August 1st 2025
 
 ## Data and annotation tool
 
@@ -57,30 +58,36 @@ It proposes three methods, including transgenic mice (i.e., an animal experiment
 ## Annotation tasks
 
 We will release the list of PMIDs, i.e., the reference articles. 
-The participants will be free to pick any of the reference articles from any of the topics and perform annotation for the top 10 articles. 
-A valid submission to the shared task should consist of the annotation of all articles in the top 10 for a particular reference article. 
+The participants will be free to pick any of the reference articles from any of the topics and perform annotation for the top 20 articles. 
+A valid submission to the shared task should consist of the annotation of all articles in the top 20 for a particular reference article. 
 The participants can submit annotations for as many reference articles as they wish.
-The eannotation can be carried out manually or automatically.
-For each of them, we will consider two types of evaluation:
+The annotation can be carried out manually or automatically.
 
-- annotations of reference articles for a pre-selected list of five topics, in order to allow a better computation of an inter-annotation agreement; and 
-- annotation of reference articles for any of the topics.
+We will release two batches of reference articles:
+
+- batch1: reference articles from a pre-selected list of five topics, in order to allow a better computation of an inter-annotation agreement; and 
+- batch2: reference articles from the remaining topics.
   
-After the annotation, the participants should submit the session URL or the annotations to the organizers, either by e-mail or using a submission system (still to be decided).
+By the respective deadline, the participants should submit the session URL or the annotations to the organizers, either by e-mail or using a submission system (still to be decided).
 
 ### Manual annotation task
 
-The participant should enter the PMID into the SMAFIRA tool and validate the top 10 articles from the list (as ordered by the "SMAFIRA Rank", the default ranking). 
-By clicking on one PMID of the list, the tool opens a comparison page between the reference article (on the left) and the clicked article (on the right).
-The participant should carefully read both abstract and assess the similarity of their research goal.
-The annotation consist of simply clicking on one of one of the option at the top of the page: green thumb up (similar), thumb up/down (uncertain), or thump down (not similar).
-It is possible to go back to the list of results at any time and navigate between the articles using the next/previous arrows, both found at the top of the page.
-The annotation can be exported using the "export feedback" button on the top right side of the page for the list of results.
+Please follow the procedure below:
+
+1. Enter the PMID of one reference article into the SMAFIRA tool (search page).
+2. Click on the button "Search for PUBMED similar articles" and the title of the article will be shown for confirmation. Confirm it by clicking on the green button.
+3. After some second a list of results is shown. Participants should validate the top 20 articles from the list (as ordered by the "SMAFIRA Rank", the default ranking).
+4. By clicking on one PMID of the list, the tool opens a comparison page between the reference article (on the left) and the clicked article (on the right).
+5. The participant should carefully read both abstract and assess the similarity of their research goal.
+6. The annotation consist of simply clicking on one of one of the option at the top of the page: green thumb up (similar), thumb up/down (uncertain), or thump down (not similar).
+7. It is possible to go back to the list of results at any time and navigate between the articles using the next/previous arrows, both found at the top of the page.
+8. Export the annotations by clicking on the button "export feedback" on the top right side of the page for the list of results.
 
 ### Automatic annotation task
 
-The participant should enter the PMID into the SMAFIRA tool and validate the top 10 articles from the list (as ordered by the "SMAFIRA Rank", the default ranking). 
-Subsequently, they can automatically annotate the articles using the system(s) they choose or developed for this aim.
+Please follow the steps 1.3 above and then step 8 for exporting the list of PMIDs.
+Subsequently, automatically annotate the top 20 articles using the system(s) they choose or developed for this aim.
+Please note that the text of the abstarcts are not included in the exported file and should be downloaded from Pubmed using the [API](https://pmc.ncbi.nlm.nih.gov/tools/developers/).
 
 ## Teams and participants
 
@@ -88,6 +95,11 @@ We will allow the participation of single participants or teams.
 All participants should provide an institutional e-mail, e.g., from the university, institute, or company in which they work or study.
 The participants may submit a paper to the shared task track of the BioNLP workshop and attend the event. 
 Further, we plan to publish an overview paper of the shared task in a journal, and the participants with valid submissions will be invited as co-authors.
+
+## Release of the annotations
+
+All annotations will be made available for the public under an appropriate licence for open data purposes.
+The annotation will be identified according to their respective team.
 
 ## Evaluation
 
