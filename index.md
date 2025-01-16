@@ -132,7 +132,6 @@ Please not that the details about disease, aplication, etc are only shown for th
 ## Organizers
 
 - Mariana Neves (German Federal Institute for Risk Assessment - BfR)
-- Daniel Butzke (German Federal Institute for Risk Assessment - BfR)
   
 ## References
   
