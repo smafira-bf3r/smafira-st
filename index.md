@@ -16,7 +16,7 @@ We propose a shared task for collaborative annotation of training data in the sc
 We will release a list of various reference articles, grouped according to some pre-selected diseases (MeSH terms). 
 The participants will validate the top 10 similar articles, either automatically, with any system of their choice, or manually using the SMAFIRA tool.
 
-## Important dates (shared task)
+## Important dates
 
 - Release of the test data (batch1): Jan-Feb/2025
 - Release of the test data (batch2): Mar/2025
