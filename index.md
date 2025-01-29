@@ -125,6 +125,20 @@ Please not that the details about disease, aplication, etc are only shown for th
 | [22777354](https://pubmed.ncbi.nlm.nih.gov/22777354/) | not similar | Disease mechanism | breast cancer, DCIS | regulation of tumor cell differentiation | SIM2s |
 | [24691501](https://pubmed.ncbi.nlm.nih.gov/24691501/) | not similar | Disease mechanism | breast cancer, DCIS |	myoepithelial cell layer | BXL0124 |
 
+## Registration
+
+Please register your team by sending a message to the contact e-mail below. 
+You should include the following information:
+
+- Team's name
+- Participants
+- Affiliations
+- Contact person (name and e-mail)
+
+By registering to the shared task, you agree to have your annotations released at the end of the task.
+We agree to use the participants' data, e.g., names, affiliations, e-mails, only in the scope of the shared task, including future publication in a journal.
+We will not redistribute this data to others, besides for paper publication, and only after confirmation by each of the authors.
+
 ## Contact
 
 - Mariana Neves (mariana.lara-neves@bfr.bund.de)
