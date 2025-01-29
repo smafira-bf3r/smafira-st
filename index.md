@@ -1,6 +1,6 @@
 
 
-### Please join our [discussion forum](https://github.com/smafira-bf3r/smafira-st/discussions) for announcements, questions, etc.
+### ** Please join our [discussion forum](https://github.com/smafira-bf3r/smafira-st/discussions) for announcements, questions, etc. **
 
 Some countries have strict legislation regarding the authorization of animal testing. 
 For instance,   some require that researchers should comply with the so-called [3R principles](https://caat.jhsph.edu/the-principles-of-humane-experimental-technique/), i.e., strategies for the replacement with non-animal approaches, reduction of the number of animals in individual experiments, and refinement of the experimental procedures to reduce animal suffering. 
