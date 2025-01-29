@@ -14,7 +14,7 @@ There are three possible values for the similarity: **similar**, **uncertain**, 
 
 We propose a shared task for collaborative annotation of training data in the scope of the [BioNLP workshop](https://aclweb.org/aclwiki/BioNLP_Workshop).
 We will release a list of various reference articles, grouped according to some pre-selected diseases (MeSH terms). 
-The participants will validate the top 10 similar articles, either automatically, with any system of their choice, or manually using the SMAFIRA tool.
+The participants will validate the top 20 similar articles, either automatically, with any system of their choice, or manually using the SMAFIRA tool.
 
 ## Important dates
 
