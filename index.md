@@ -1,5 +1,7 @@
 
 
+**Please join our [discussion forum](https://github.com/smafira-bf3r/smafira-st/discussions) for announcements, questions, etc.**
+
 Some countries have strict legislation regarding the authorization of animal testing. 
 For instance,   some require that researchers should comply with the so-called [3R principles](https://caat.jhsph.edu/the-principles-of-humane-experimental-technique/), i.e., strategies for the replacement with non-animal approaches, reduction of the number of animals in individual experiments, and refinement of the experimental procedures to reduce animal suffering. 
 Further, many countries require researchers to carry out a thorough literature search to ensure that alternative approaches are currently not available.
@@ -15,8 +17,6 @@ There are three possible values for the similarity: **similar**, **uncertain**, 
 We propose a shared task for collaborative annotation of training data in the scope of the [BioNLP workshop](https://aclweb.org/aclwiki/BioNLP_Workshop).
 We will release a list of various reference articles, grouped according to some pre-selected diseases (MeSH terms). 
 The participants will validate the top 20 similar articles, either automatically, with any system of their choice, or manually using the SMAFIRA tool.
-
-** Please join our [discussion forum](https://github.com/smafira-bf3r/smafira-st/discussions) for announcements, questions, etc. **
 
 ## Important dates
 
