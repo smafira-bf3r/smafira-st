@@ -136,7 +136,7 @@ You should include the following information:
 - Contact person (name and e-mail)
 
 By registering to the shared task, you agree to have your annotations released at the end of the task.
-Further, you agree that we use the participants' data, e.g., names, affiliations, e-mails, only in the scope of the shared task, including future publications in a journal.
+Further, you agree that we use the participants' data, e.g., names, affiliations, e-mails, in the scope of the shared task, including future publications in a journal.
 We will not redistribute this data to others, besides for paper publication, and only after confirmation by the participants.
 
 ## Contact
