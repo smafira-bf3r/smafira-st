@@ -125,6 +125,26 @@ Please note that the details about disease, application, etc are only shown for 
 | [22777354](https://pubmed.ncbi.nlm.nih.gov/22777354/) | not similar | Disease mechanism | breast cancer, DCIS | regulation of tumor cell differentiation |
 | [24691501](https://pubmed.ncbi.nlm.nih.gov/24691501/) | not similar | Disease mechanism | breast cancer, DCIS |	myoepithelial cell layer |
 
+## Test data
+
+### Manual annotation task
+
+Here is the list of the 25 PMIDs according to the five selected topics.
+
+| Infections | Neoplasms | Nervous System Diseases | Cardiovascular Diseases | Immune System Diseases |
+| --- | --- | --- | --- | --- |
+| 36159784 | 34233949 | 35709748 | 33635944 | 34503569 |
+| 36577999	| 33320838 | 37084732 | 37010266 | 36179018 |
+| 32485164	| 36311701 | 37339207 | 37380648 | 37079985 |
+| 37071015	| 37429473 | 37749256 | 37268711 | 37256935 |
+| 31689515	| 35623658 | 37126714 | 35917178 | 37168850 |
+
+### Automatic annotation task
+
+- Complete test file: We provide all reference articles, respective top 20 similar articles, and respective texts (title and abstract) in the JSON format
+- TeamTat export file: The texts were retrieved using [TeamTat](https://www.teamtat.org/) and the original exported file are also provided, in case teams need it, e.g., to process texts using a different encoding.
+- Sample submission file: We provide a sample (dummy) submission file (in JSON) in which all similarity values were set to *n/a* (not available)
+
 ## Registration
 
 Please register your team by sending a message to the contact e-mail below. 
