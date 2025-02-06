@@ -146,7 +146,6 @@ We will not redistribute this data to others, besides for paper publication, and
 ## Organizers
 
 - Mariana Neves (German Federal Institute for Risk Assessment - BfR)
-- Daniel Butzke (German Federal Institute for Risk Assessment - BfR)
   
 ## References
   
