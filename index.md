@@ -27,10 +27,14 @@ The participants will validate the top 20 similar articles, either automatically
 - Final submissions of system paper: May 20th, 2025
 - Submissions of annotations (batch2): July/2025
 
-## Data and annotation tool
+## SMAFIRA annotation tool
 
-### Available data
-  
+The [SMAFIRA Web tool](https://smafira.bf3r.de/) is freely accessible and no login is necessary. 
+Instead, the annotators can bookmark the URL of their session for later annotation or share the URL with other colleagues for a collaborative annotation.
+
+## Available data 
+
+
 We previously released [four case studies](https://github.com/SMAFIRA/c_corpus) [2], which can be used for any purpose, e.g., examples for learning the guidelines, evaluation, or few-shot approaches. 
 We previously used this dataset for the evaluation of various similarity methods [3].
 The mapping between the labels in these case studies and the similarity values is the following: 
@@ -38,21 +42,6 @@ The mapping between the labels in these case studies and the similarity values i
 - **similar**: equivalent "++", partially equivalent “+(+)” or “+”, noteworthy “n”
 - **uncertain**: limbo “L”
 - **not similar**: not equivalent “-”
-
-### Annotation tool
-
-The [SMAFIRA Web tool](https://smafira.bf3r.de/) is freely accessible and no login is necessary. 
-Instead, the annotators can bookmark the URL of their session for later annotation or share the URL with other colleagues for a collaborative annotation.
-
-### Test data
-
-We pre-selected a list of 21 diseases, e.g., “Neoplasms” or “Musculoskeletal Diseases”, and their respective MeSH terms. 
-We performed searches in Pubmed for each disease, e.g., (Musculoskeletal Diseases[MeSH Major Topic]) 
-AND (Models, Animal[MeSH Major Topic]), and manually selected five reference articles. 
-The selected reference articles should describe a proper animal experiment and cannot be a review. 
-
-For instance, the article with [PMID 37775153](https://pubmed.ncbi.nlm.nih.gov/37775153/) belongs to the topic of “Musculoskeletal Diseases” and studies the effect of the L-arginine metabolism on arthritis and inflammation-mediated bone loss. 
-It proposes three methods, including transgenic mice (i.e., an animal experiment), but also *in vitro* models.
 
 ## Annotation tasks
 
@@ -127,9 +116,15 @@ Please note that the details about disease, application, etc are only shown for 
 
 ## Test data
 
-### Manual annotation task
+We pre-selected a list of 21 diseases, e.g., “Neoplasms” or “Musculoskeletal Diseases”, and their respective MeSH terms. 
+We performed searches in Pubmed for each disease, e.g., (Musculoskeletal Diseases[MeSH Major Topic]) 
+AND (Models, Animal[MeSH Major Topic]), and manually selected five reference articles. 
+The selected reference articles should describe a proper animal experiment and cannot be a review. 
 
-Here is the list of the 25 PMIDs according to the five selected topics.
+For instance, the article with [PMID 37775153](https://pubmed.ncbi.nlm.nih.gov/37775153/) belongs to the topic of “Musculoskeletal Diseases” and studies the effect of the L-arginine metabolism on arthritis and inflammation-mediated bone loss. 
+It proposes three methods, including transgenic mice (i.e., an animal experiment), but also *in vitro* models.
+
+For the **manual annotation**, here is the list of the 25 PMIDs according to the five selected topics.
 
 | Infections | Neoplasms | Nervous System Diseases | Cardiovascular Diseases | Immune System Diseases |
 | --- | --- | --- | --- | --- |
@@ -139,11 +134,18 @@ Here is the list of the 25 PMIDs according to the five selected topics.
 | 37071015	| 37429473 | 37749256 | 37268711 | 37256935 |
 | 31689515	| 35623658 | 37126714 | 35917178 | 37168850 |
 
-### Automatic annotation task
+For the **automatic annotation**, here are the available files:
 
-- Complete test file: We provide all reference articles, respective top 20 similar articles, and respective texts (title and abstract) in the JSON format
-- TeamTat export file: The texts were retrieved using [TeamTat](https://www.teamtat.org/) and the original exported file are also provided, in case teams need it, e.g., to process texts using a different encoding.
-- Sample submission file: We provide a sample (dummy) submission file (in JSON) in which all similarity values were set to *n/a* (not available)
+| --- | Batch1 | Batch | 
+| Test file | --- | --- | 
+| TeamTat files | --- | --- | 
+
+Details about the files:
+
+- Test file (JSON format): All reference articles, as well as their respective top 20 similar articles and texts (title and abstract).
+- TeamTat file (Zip file): Original exported XML files from [TeamTat](https://www.teamtat.org/), which was used for retrieving the texts, in case participants need them, e.g., to process texts using a different encoding.
+
+We also provide a sample (dummy) submission file (in JSON), in which all similarity values were set to *n/a* (not available)
 
 ## Registration
 
