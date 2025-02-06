@@ -94,11 +94,22 @@ We will rank the participants (individuals or teams) in terms of agreement to ot
 
 ## Annotation guidelines
 
-Only the title and the abstract of a PubMed article is currently shown in SMAFIRA, and annotation will be restricted to these. 
 The annotation consists of assessing the similarity between the research goals of the two articles, i.e., the reference article and one of the articles from the top 20 list. 
-The similarity is defined by a tree-value scale, namely, similar, uncertain, or not similar, as currently available in the SMAFIRA tool. 
+However, this is a very subjective task, and opinion might vary among annotators.
+Therefore, we did not try to define strict guidelines for the annotation, but only set some few rules and give some examples.
 
-More details about the assessment of the similarity is described in [2] and we show some examples below.
+The annotation **should** following the rules below:
+
+1. Only the title and the abstract of a PubMed article is currently shown in SMAFIRA, and annotation sould be restricted to these.
+2. As stated above, the similarity is defined by a tree-value scale, namely, **similar**, **uncertain**, or **not similar**, as currently available in the SMAFIRA tool.
+3. The asssessment **should not** consider consider the methodology proposed in the articles, i.e., whether it is an animal or in vitro model. Two research goal can be very similar even for differnt model types. Actually, this is the principle for finding an alternative to an animal model.
+
+Other suggestions:
+
+- During our experiments, we noticed that the research goal is usually described in the title, introduction (background) and conclusion of the abstract.
+- While some aspects are important (e.g., diseases, specifc  of the disease, field of application), others are not that relevant (e.g., taget).
+
+More details about the assessment of the similarity for the available case studies is described in [2] and we show some examples below.
 Please note that the details about disease, application, etc are only shown for a better understanding of the similarity and should NOT be annotated.
 
 | PMID | Reference | Application | Disease | Disease feature |
