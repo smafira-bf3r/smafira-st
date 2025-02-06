@@ -112,18 +112,18 @@ The similarity is defined by a tree-value scale, namely, similar, uncertain, or 
 More details about the assessment of the similarity is described in [2] and we show some examples below.
 Please not that the details about disease, aplication, etc are only shown for the understanding of the similarity and should NOT be annotated in the tasks.
 
-| PMID | Reference | Application | Disease | Disease feature | Endpoints |
+| PMID | Reference | Application | Disease | Disease feature |
 | --- | --- | --- |
-| [19735549](https://pubmed.ncbi.nlm.nih.gov/19735549/) | - | Model development, Disease mechanism | breast cancer, human ductal carcinoma in situ (DCIS)	|	tumor initiation, growth, progress| HER-2 |
+| [19735549](https://pubmed.ncbi.nlm.nih.gov/19735549/) | - | Model development, Disease mechanism | breast cancer, human ductal carcinoma in situ (DCIS)	|	tumor initiation, growth, progress|
 
-| PMID | Similarity | Application | Disease | Disease feature | Endpoints |
+| PMID | Similarity | Application | Disease | Disease feature |
 | --- | --- | --- |
-| [28707729](https://pubmed.ncbi.nlm.nih.gov/28707729/) | similar | Disease mechanism | breast cancer, DCIS | promote invasive growth	| SOX11 |
-| [20421921](https://pubmed.ncbi.nlm.nih.gov/20421921/)  | similar  | Disease mechanism | breast cancer, DCIS | progression into invasive	| Atg5, AKT/PI3 Kinase and mTOR |
-| [19920187](https://pubmed.ncbi.nlm.nih.gov/19920187/) | uncertain | Disease mechanism; Model development | breast cancer, DCIS | progression into invasive | HGF-secreting mammary fibroblasts |
-| [27374087](https://pubmed.ncbi.nlm.nih.gov/27374087/) | uncertain | Disease mechanism | breast cancer, DCIS	| progression into invasive | distinction of aggressive clones |
-| [22777354](https://pubmed.ncbi.nlm.nih.gov/22777354/) | not similar | Disease mechanism | breast cancer, DCIS | regulation of tumor cell differentiation | SIM2s |
-| [24691501](https://pubmed.ncbi.nlm.nih.gov/24691501/) | not similar | Disease mechanism | breast cancer, DCIS |	myoepithelial cell layer | BXL0124 |
+| [28707729](https://pubmed.ncbi.nlm.nih.gov/28707729/) | similar | Disease mechanism | breast cancer, DCIS | promote invasive growth	|
+| [20421921](https://pubmed.ncbi.nlm.nih.gov/20421921/)  | similar  | Disease mechanism | breast cancer, DCIS | progression into invasive	|
+| [19920187](https://pubmed.ncbi.nlm.nih.gov/19920187/) | uncertain | Disease mechanism; Model development | breast cancer, DCIS | progression into invasive |
+| [27374087](https://pubmed.ncbi.nlm.nih.gov/27374087/) | uncertain | Disease mechanism | breast cancer, DCIS	| progression into invasive |
+| [22777354](https://pubmed.ncbi.nlm.nih.gov/22777354/) | not similar | Disease mechanism | breast cancer, DCIS | regulation of tumor cell differentiation |
+| [24691501](https://pubmed.ncbi.nlm.nih.gov/24691501/) | not similar | Disease mechanism | breast cancer, DCIS |	myoepithelial cell layer |
 
 ## Registration
 
