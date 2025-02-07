@@ -46,9 +46,7 @@ The mapping between the labels in these case studies and the similarity values i
 ## Annotation tasks
 
 We will release the list of PMIDs, i.e., the reference articles. 
-The participants will be free to pick **any of the reference articles** from **any of the topics** and perform annotation for the top 20 articles. 
-A valid submission to the shared task should consist of the annotation of all articles in the top 20 for a particular reference article. 
-The participants can submit annotations for as many reference articles as they wish.
+The participants will be free to pick **any of the reference articles** from **any of the topics** and perform annotation for the top 20 articles and can submit annotations for as many reference articles as they wish.
 The annotation can be carried out manually or automatically.
 
 We will release two batches of reference articles:
@@ -56,8 +54,6 @@ We will release two batches of reference articles:
 - batch1: reference articles from a pre-selected list of five topics, in order to allow a better computation of an inter-annotation agreement; and 
 - batch2: reference articles from the remaining topics.
   
-By the respective deadline, the participants should submit the session URL or the annotations to the organizers, either by e-mail or using a submission system (still to be decided).
-
 ### Manual annotation task
 
 Please follow the procedure below for each reference article:
@@ -158,7 +154,7 @@ Details about the files:
 
 We also provide a [sample submission file](batch1/sample_submission.json) (in JSON), in which all similarity values were set to *n/a* (not available)
 
-## Registration
+## Registration and participation
 
 Please register your team by sending a message to the contact e-mail below. 
 You should include the following information:
@@ -171,6 +167,11 @@ You should include the following information:
 By registering to the shared task, you agree to have your annotations released at the end of the task.
 Further, you agree that we use the participants' data, e.g., names, affiliations, e-mails, in the scope of the shared task, including future publications in a journal.
 We will not redistribute this data to others, besides for paper publication, and only after confirmation by the participants.
+
+A **valid submission** to the shared task should consist of the following:
+- Annotation of all articles in the top 20 for a particular reference article.
+- A short description of the system or methodology used, either directly to the task's organizers of as a participant's paper to the BioNLP Workshop.
+- By the respective deadline, the participants should submit the session URL or the annotations to the organizers, either by e-mail or using a submission system (still to be decided).
 
 ## Contact
 
