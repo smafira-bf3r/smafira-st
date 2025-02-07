@@ -147,9 +147,9 @@ For the **manual annotation**, here is the list of the 25 PMIDs according to the
 
 For the **automatic annotation**, here are the available files:
 
-| --- | Batch1 | Batch | 
-| [Test file](batch1/batch1.json) | --- | --- | 
-| [TeamTat files](batch1/batch1_teamtat.zip) | --- | --- | 
+|  | Batch1 | Batch2 | 
+| Test file | [batch1.json](batch1/batch1.json) | --- | 
+| TeamTat files | [batch1_teamtat.zip](batch1/batch1_teamtat.zip) | --- | 
 
 Details about the files:
 
