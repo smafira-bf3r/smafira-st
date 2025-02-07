@@ -98,19 +98,19 @@ The annotation consists of assessing the similarity between the research goals o
 However, this is a very subjective task, and opinion might vary among annotators.
 Therefore, we did not try to define strict guidelines for the annotation, but only set some few rules and give some examples.
 
-The annotation **should** following the rules below:
+The annotation **should** follow the rules below:
 
-1. Only the title and the abstract of a PubMed article is currently shown in SMAFIRA, and annotation sould be restricted to these.
-2. As stated above, the similarity is defined by a tree-value scale, namely, **similar**, **uncertain**, or **not similar**, as currently available in the SMAFIRA tool.
-3. The asssessment **should not** consider consider the methodology proposed in the articles, i.e., whether it is an animal or in vitro model. Two research goal can be very similar even for differnt model types. Actually, this is the principle for finding an alternative to an animal model.
+1. The annotation should be restricted to only the title and the abstract of the article, as currently shown in SMAFIRA, and the full text should not be consulted.
+2. As stated above, the similarity is defined by a tree-value scale, namely, **similar**, **uncertain**, or **not similar**.
+3. The asssessment should **not** consider the methodology proposed in the articles, i.e., whether it is an animal or in vitro model. Two research goal can be very similar even for different model types. Actually, this is the main principle for finding an alternative to an animal model.
 
 Other suggestions:
 
-- During our experiments, we noticed that the research goal is usually described in the title, introduction (background) and conclusion of the abstract.
-- While some aspects are important (e.g., diseases, specifc  of the disease, field of application), others are not that relevant (e.g., taget).
+- During our annotation, we noticed that the research goal is usually described in the title, introduction (or background) and conclusion sections of the abstract.
+- While some aspects are important (e.g., diseases, specifc  of the disease, field of application), others are not very relevant (e.g., taget).
 
 More details about the assessment of the similarity for the available case studies is described in [2] and we show some examples below.
-Please note that the details about disease, application, etc are only shown for a better understanding of the similarity and should NOT be annotated.
+Please note that the details about disease, application, etc are only shown for a better understanding of the similarity and should **not** be annotated.
 
 | PMID | Reference | Application | Disease | Disease feature |
 | --- | --- | --- |
