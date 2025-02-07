@@ -23,7 +23,7 @@ The participants will validate the top 20 similar articles, either automatically
 - Release of the test data (batch1): Feb/2025
 - Release of the test data (batch2): Mar/2025
 - Submissions of annotations (batch1): April 30th, 2025
-- Submissions of system paper: May 5th, 2025
+- Submissions of participant paper: May 5th, 2025
 - Final submissions of system paper: May 20th, 2025
 - Submissions of annotations (batch2): July/2025
 
