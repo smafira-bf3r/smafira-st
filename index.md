@@ -148,15 +148,15 @@ For the **manual annotation**, here is the list of the 25 PMIDs according to the
 For the **automatic annotation**, here are the available files:
 
 | --- | Batch1 | Batch | 
-| Test file | --- | --- | 
-| TeamTat files | --- | --- | 
+| [Test file](batch1/batch1.json) | --- | --- | 
+| [TeamTat files](batch1/batch1_teamtat.zip) | --- | --- | 
 
 Details about the files:
 
 - Test file (JSON format): All reference articles, as well as their respective top 20 similar articles and texts (title and abstract).
 - TeamTat file (Zip file): Original exported XML files from [TeamTat](https://www.teamtat.org/), which was used for retrieving the texts, in case participants need them, e.g., to process texts using a different encoding.
 
-We also provide a sample (dummy) submission file (in JSON), in which all similarity values were set to *n/a* (not available)
+We also provide a [sample submission file](batch1/sample_submission.json) (in JSON), in which all similarity values were set to *n/a* (not available)
 
 ## Registration
 
