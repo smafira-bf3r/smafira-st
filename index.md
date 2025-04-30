@@ -131,7 +131,7 @@ The selected reference articles should describe a proper animal experiment and c
 For instance, the article with [PMID 37775153](https://pubmed.ncbi.nlm.nih.gov/37775153/) belongs to the topic of “Musculoskeletal Diseases” and studies the effect of the L-arginine metabolism on arthritis and inflammation-mediated bone loss. 
 It proposes three methods, including transgenic mice (i.e., an animal experiment), but also *in vitro* models.
 
-For the **manual annotation**, here is the list of the 25 PMIDs according to the five selected topics.
+For the **manual annotation**, here is the list of the 25 PMIDs according to the five selected topics (batch1).
 
 | Infections | Neoplasms | Nervous System Diseases | Cardiovascular Diseases | Immune System Diseases |
 | --- | --- | --- | --- | --- |
@@ -140,6 +140,40 @@ For the **manual annotation**, here is the list of the 25 PMIDs according to the
 | 32485164	| 36311701 | 37339207 | 37380648 | 37079985 |
 | 37071015	| 37429473 | 37749256 | 37268711 | 37256935 |
 | 31689515	| 35623658 | 37126714 | 35917178 | 37168850 |
+
+And here is the list of PMIDs for batch2:
+
+| Musculoskeletal | Digestive System | Stomatognathic | Respiratory Tract | Otorhinolaryngologic |
+| --- | --- | --- | --- | --- |
+37775153 | 26313006 | 32541832 | 31694835 | 38531465 |
+36328744 | 34089528 | 34190354 | 33524990 | 35331657 |
+36209953 | 36717026 | 33673616 | 33166988 | 38608332 |
+36661300 | 30974318 | 35082168 | 32707078 | 31570054 |
+36302840 | 34774008 | 37143319 | 37730992 | 30970038 |
+
+| Eye | Urogenital | Hemic and Lymphatic | Congenital Hereditary and Neonatal | Skin and Connective Tissue |
+| --- | --- | --- | --- | --- |
+| 37345657 | 36581059 | 32001657 | 33922602 | 32440554 |
+| 32721019 | 37324943 | 32494068 | 31476705 | 33391503 |
+| 32341164 | 35264456 | 33639162 | 34533563 | 34078596 |
+| 37429715 | 38688639 | 31797883 | 38891999 | 38361478 |
+| 37757825 | 34270549 | 38713510 | 33729473 | 31481954 |
+
+| Nutritional and Metabolic | Endocrine | Pathological Conditions | Occupational | Chemically-Induced |
+| --- | --- | --- | --- | --- |
+| 33762572 | 21211517 | 33744277 | 34139709 | 23449255 |
+| 38263084 | 1617104 | 32544087 | 27775689 | 7236062 |
+| 36463128 | 23777580 | 26667043 | 38669965 | 28263289 | 
+| 37245586 | 26517045 | 38690023 | 33705732 | 31641018 |
+| 36854163 | 37480416 | 24286894 | 28762870 | 36162952 |
+
+| Wounds and Injuries | 
+| --- | 
+| 26123115 |
+| 31111883 |
+| 29603350 |
+| 19841895 |
+| 16929202 |
 
 For the **automatic annotation**, here are the available files:
 
