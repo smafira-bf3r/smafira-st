@@ -178,8 +178,8 @@ And here is the list of PMIDs for batch2:
 For the **automatic annotation**, here are the available files:
 
 |  | Batch1 | Batch2 | 
-| Test file | [batch1.json](batch1/batch1.json) | --- | 
-| TeamTat files | [batch1_teamtat.zip](batch1/batch1_teamtat.zip) | --- | 
+| Test file | [batch1.json](batch1/batch1.json) | [batch2.json](batch1/batch2.json) | 
+| TeamTat files | [batch1_teamtat.zip](batch1/batch1_teamtat.zip) | [batch2_teamtat.zip](batch2/batch2_teamtat.zip) | 
 
 Details about the files:
 
